@@ -26,11 +26,18 @@ function App() {
     const videoRef = useRef<HTMLVideoElement>( null );
     const [ showOverlay, setShowOverlay ] = useState( false );
 
-    useVideoInterval( videoRef, {
-        3: () => setShowOverlay( true ),
-        8: () => alert( 'This is 8 seconds!' ),
-        15: () => console.log( 'Reached 15s mark' )
-    });
+    useVideoInterval( {
+        videoRef,
+        intervalCallbacks: {
+            3: () => setShowOverlay(true),
+            5: () => alert('This is 8 seconds!'),
+            1: () => console.log('Reached 6s mark')
+        },
+        options: {
+            threshold: 2,
+            triggerOnce: true
+        }
+    } );
 
     return (
         <>
