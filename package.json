@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"rollup": "rollup -c --bundleConfigAsCjs"
+	"build": "rollup -c --bundleConfigAsCjs",
+	"lint": "eslint \"src/**/*.{js,ts,tsx}\" --fix && prettier --write \"src/**/*.{js,ts,tsx,json,md}\""
   },
   "author": "yogeshbhutkar",
   "license": "MIT",
