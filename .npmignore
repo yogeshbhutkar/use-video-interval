@@ -1,0 +1,10 @@
+/src
+/node_modules
+
+.env
+.DS_Store
+
+tsconfig.json
+.prettierrc
+eslint.config.mjs
+rollup.config.js

@@ -1,0 +1,54 @@
+{
+  "name": "use-video-interval",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+	"url": "https://github.com/yogeshbhutkar/use-video-interval"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "yogeshbhutkar",
+  "license": "MIT",
+  "description": "A React hook for executing a callback at customizable intervals during video playback.",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "use-video-interval",
+    "video-playback",
+    "video-timer",
+    "timeupdate",
+    "custom-hook",
+    "hooks",
+    "HTML5-video",
+    "useInterval",
+    "video-interval"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3",
+    "react": "^19.1.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.1"
+  },
+  "dependencies": {
+    "rollup": "^4.40.1"
+  }
+}
