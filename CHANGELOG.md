@@ -1,5 +1,11 @@
 # use-video-interval
 
+## 0.0.4
+
+### Patch Changes
+
+- 1622ac2: Update usage example
+
 ## 0.0.3
 
 ### Patch Changes
